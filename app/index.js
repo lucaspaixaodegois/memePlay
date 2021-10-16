@@ -5,10 +5,10 @@ const audio = document.querySelector("audio");
 
 const data = {
 
-    artista: "files/givaldo-avatar.png",
-    enviadoPor: "files/lucas-avatar.png",
+    artista: "/app/data/files/givaldo-avatar.png",
+    enviadoPor: "/app/data/files/lucas-avatar.png",
     frase: "Trate as coisas serias felá da puta.",
-    file: "files/trate-as-coisas-serias-filho-da-puta.mpeg"
+    file: "/app/data/files/trate-as-coisas-serias-filho-da-puta.mpeg"
 };
 artista.style.background = `url('${data.artista}') no-repeat center center / cover`;
 enviadoPor.style.background = `url('${data.enviadoPor}') no-repeat center center / cover`;

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles\style.css" />
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>MemePlay</title>
+  </head>
+
+  <body>
+    <div id="player">
+      <h4>
+        <span class="material-icons" style="font-size: 7vw">graphic_eq</span>
+        Meme Play
+        <span class="material-icons" style="font-size: 7vw">graphic_eq</span>
+      </h4>
+
+      <div class="filter">
+        <i class="material-icons">search</i>
+        <input type="text" id="filter" placeholder="Buscar Áudio" />
+      </div>
+
+      <div class="list-card" id="list-card">
+        <div class="card">
+          <div class="responsaveis">
+            <p>Artista:</p>
+            <div class="artista"></div>
+            <p>Enviado por:</p>
+            <div class="enviadoPor"></div>
+          </div>
+
+          <div class="frase"></div>
+
+          <div class="compartilhar">
+            <audio controls></audio>
+
+            <a href="" id="whatsapp-share-btt" rel="nofollow" target="_blank">
+              <img src="/app/icon/whatsapp.png" alt="icon-whatsapp" />
+            </a>
+
+            <a
+              href=""
+              id="telegram-share-btt"
+              rel="nofollow"
+              target="_blank"
+              class="telegram-share-button"
+            >
+              <img src="/app/icon/telegram.png" alt="icon-telegram" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/app/data/data.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
