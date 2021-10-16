@@ -38,5 +38,3 @@ document.addEventListener("DOMContentLoaded", function () {
     var telegramLink = 'https://telegram.me/share/url?url=' + url + '&text=' + title + conteudo;
     document.getElementById("telegram-share-btt").href = telegramLink;
 }, false);
-
-//teste commit
