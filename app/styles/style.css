@@ -1,10 +1,12 @@
-@import "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css";
+/*@import "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css";*/
 @import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url("https://kit.fontawesome.com/a076d05399.js");
+
 body {
   padding-top: 5vh;
-  background-color: rgba(85, 85, 85, 0.219);
+  /* background-color: rgba(85, 85, 85, 0.219);*/
+  background-color: #efefef;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +18,7 @@ body {
   width: 95%;
   height: 95%;
   padding: 2vh;
-  
+
 
 }
 
@@ -92,7 +94,7 @@ h4 {
 }
 .compartilhar img{
   height: 5vw;
-    
+
 }
 audio {
   height: 6vw;
@@ -100,4 +102,8 @@ audio {
   min-height: 7vw;
   display: flex;
   width: 80%;
+}
+
+.material-icons {
+  font-size: 7vw;
 }
