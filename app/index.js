@@ -2,8 +2,8 @@ const pathAudios = function (file) {
   return `data/audios/${file}`;
 };
 
-const pathAImages = function (file) {
-  return `data/images/${file}`;
+const pathAImages = function (artista) {
+  return `data/images/${artista}`;
 };
 
 window.addEventListener("load", player.start());
